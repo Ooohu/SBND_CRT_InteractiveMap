@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Rotatable Cube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="compass.css">
+</head>
+<body>
+	<div class="reset-container">
+		<button id="reset-button">Reset</button>
+        <input type="text" id="face-input" placeholder="Enter face name (e.g., front)">
+        <button id="rotate-face-button">Rotate to Face</button>
+    </div>
+	
+
+    <div class="cube-container">
+        <div class="cube">
+            <!-- Split the front face into two smaller faces -->
+        </div>
+    </div>
+
+    <div class="compass-container"> <!-- fix in place -->
+	    <div class="arrow-container"> <!-- rotate around -->
+            <div class="arrow-shaft pX"></div>
+            <div class="arrow-shaft pY"></div>
+            <div class="arrow-shaft pZ"></div>
+            <!--<div class="arrow-head"></div>-->
+            <div class="arrow-text south">S</div>
+            <div class="arrow-text north">N</div>
+            <div class="arrow-text east">E</div>
+            <div class="arrow-text west">W</div>
+            <div class="arrow-text top">T</div>
+            <div class="arrow-text bottom">B</div>
+	    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
