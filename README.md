@@ -1,7 +1,8 @@
-Run
-python -m http.server 8000
+Set up a local server by running
 
-then Navigate to  
-http://localhost:8000
+`python -m http.server 8000`
+
+then use a browser to navigate this address:
+`http://localhost:8000`
 
 
